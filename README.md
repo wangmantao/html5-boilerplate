@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
 [![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
 
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
+HTML5 Boilerplate 是一个专业的前端模板, 目的是为了快速开发web app或者是web 站点。
 
+这个项目是经过多年的迭代开发，结合了社区的知识。
 This project is the product of years of iterative development and
 community knowledge. It does not impose a specific development
 philosophy or framework, so you're free to architect your code in the
@@ -16,23 +16,24 @@ way that you want.
 * Twitter: [@h5bp](https://twitter.com/h5bp)
 
 
-## Quick start
+## 快速开发
 
-Choose one of the following options:
+以下选一:
 
-1. Download the latest stable release from
+1. 从这个网站下载最新的稳定版
    [html5boilerplate.com](https://html5boilerplate.com/).
-2. Clone the git repo — `git clone
+2. 克隆git资源 — `git clone
    https://github.com/h5bp/html5-boilerplate.git` - and checkout the
    [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
    you'd like to use.
 
 
-## Features
+## 特点 
 
 * HTML5 ready. Use the new elements with confidence.
+* 适用HTML5. 可信任的新元素
 * Designed with progressive enhancement in mind.
-* Includes:
+* 包括:
   * [`Normalize.css`](https://necolas.github.com/normalize.css/)
     for CSS normalizations and common bug fixes
   * [`jQuery`](https://jquery.com/) via CDN with [SRI Hash](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) and a local fallback
@@ -40,17 +41,18 @@ Choose one of the following options:
     detection
   * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
     that, among other, improve the web site's performance and security
-* Placeholder CSS Media Queries.
-* Useful CSS helper classes.
-* Default print styles, performance optimized.
-* An optimized version of the Google Universal Analytics snippet.
+	改善web站点的性能和安全
+* Placeholder CSS Media Queries. css 媒体查询
+* Useful CSS helper classes. 有用的css助手类
+* Default print styles, performance optimized. 默认的打印类型，性能优化
+* An optimized version of the Google Universal Analytics snippet. 访问者的形为数据
 * Protection against any stray `console` statements causing JavaScript
-  errors in older browsers.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
+  errors in older browsers. 防止javascript出错
+* "Delete-key friendly." Easy to strip out parts you don't need. 删除键友好
+* Extensive inline and accompanying documentation. 更多的参考Documnetation
 
 
-## Browser support
+## 浏览器支持
 
 * Chrome *(latest 2)*
 * Edge *(latest 2)*
@@ -67,15 +69,13 @@ can use [HTML5 Boilerplate v4](https://github.com/h5bp/html5-boilerplate/tree/v4
 or [HTML5 Boilerplate v5](https://github.com/h5bp/html5-boilerplate/tree/v5.0.0) (IE8+). They are no longer actively developed.
 
 
-## Documentation
+## 文档
 
-Take a look at the [documentation table of contents](dist/doc/TOC.md).
-This documentation is bundled with the project which makes it 
-available for offline reading and provides a useful starting point for
-any documentation you want to write about your project.
+关注 [documentation table of contents](dist/doc/TOC.md).
+TOC.md 随项目一起离线可读，有一些有用的开始点 关于怎样开始你的项目.
 
 
-## Contributing
+## 贡献者 
 
 Hundreds of developers have helped to make the HTML5 Boilerplate. Anyone is welcome to [contribute](.github/CONTRIBUTING.md),
 however, if you decide to get involved, please take a moment to review
