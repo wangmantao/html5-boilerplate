@@ -1,9 +1,9 @@
 [HTML5 Boilerplate homepage](https://html5boilerplate.com/) | [Documentation
 table of contents](TOC.md)
 
-# The HTML
+# HTML
 
-By default, HTML5 Boilerplate provides two `html` pages:
+一般该架构提供两个html文件
 
 * [`index.html`](#indexhtml) - a default HTML skeleton that should form the
   basis of all pages on your website
@@ -13,7 +13,7 @@ By default, HTML5 Boilerplate provides two `html` pages:
 ## `index.html`
 
 
-### The `no-js` Class
+###  `no-js` Class
 
 The `no-js` class is provided in order to allow you to more easily and
 explicitly add custom styles based on whether JavaScript is disabled
@@ -202,7 +202,7 @@ maintains [a huge list of cross Browser polyfills](https://github.com/Modernizr/
 
 ### jQuery CDN for jQuery
 
-The jQuery CDN version of the jQuery JavaScript library is referenced towards
+The jQuery CDN version of the jQuery JavascriptaScript library is referenced towards
 the bottom of the page. A local fallback of jQuery is included for rare instances
 when the CDN version might not be available, and to facilitate offline
 development.

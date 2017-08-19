@@ -1,9 +1,9 @@
-[HTML5 Boilerplate homepage](https://html5boilerplate.com/) | [Documentation
-table of contents](TOC.md)
+[HTML5 Boilerplate homepage](https://html5boilerplate.com/) | [目录
+](TOC.md)
 
-# The CSS
+# CSS
 
-HTML5 Boilerplate's CSS includes:
+HTML5 Boilerplate's CSS 包括:
 
 * [Normalize.css](#normalizecss)
 * [Useful defaults](#useful-defaults)
@@ -12,37 +12,38 @@ HTML5 Boilerplate's CSS includes:
 * [Print styles](#print-styles)
 
 This starting CSS does not rely on the presence of
+这份css文档不依赖以下部分的存在
 [conditional class names](https://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/),
 [conditional style sheets](https://css-tricks.com/how-to-create-an-ie-only-stylesheet/),
-or [Modernizr](https://modernizr.com/), and it is ready to use no matter what
-your development preferences happen to be.
+  or [Modernizr](https://modernizr.com/), 
+  and it is ready to use no matter what
+  your development preferences happen to be.
 
 
 ## Normalize.css
 
 In order to make browsers render all elements more consistently and in line
 with modern standards, we include
+为了使不同浏览器渲染的一致性, 包括了：
 [Normalize.css](https://necolas.github.io/normalize.css/) — a modern, HTML5-ready
-alternative to CSS resets.
+代替 CSS resets.
+CSS Resets代码：设置一系列的样式规则，让所有浏览器都按照同样的规则解释CSS。
 
-As opposed to CSS resets, Normalize.css:
+不同与 CSS resets, Normalize.css:
+* 保护有用的浏览器默认样式而不是完全去掉它们
+* 一般化的样式：为大部分HTML元素提供
+* 修复浏览器自身的bug并保证各浏览器的一致性
+* 优化CSS可用性：用一些小技巧
+* 解释代码：用注释和详细的文档来
 
-* targets only the styles that need normalizing
-* preserves useful browser defaults rather than erasing them
-* corrects bugs and common browser inconsistencies
-* improves usability with subtle improvements
-* doesn't clutter the debugging tools
-* has better documentation
-
-For more information about Normalize.css, please refer to its [project
+更多详情, please refer to its [project
 page](https://necolas.github.com/normalize.css/), as well as this
 [blog post](http://nicolasgallagher.com/about-normalize-css/).
 
 
-## Useful defaults
+## 有用的默认值
 
-Several base styles are included that build upon `Normalize.css`. These
-styles:
+一些基本样式
 
 * provide basic typography settings that improve text readability
 * protect against unwanted `text-shadow` during text highlighting
@@ -54,9 +55,9 @@ You are free and even encouraged to modify or add to these base styles as your
 project requires.
 
 
-## Common helpers
+## 常用的helpers
 
-Along with the base styles, we also provide some commonly used helper classes.
+  除了基本样式, 还有常用的助手类
 
 #### `.hidden`
 
@@ -105,7 +106,7 @@ Over the years there have been many variants of the clearfix hack, but currently
 we use the [micro clearfix](http://nicolasgallagher.com/micro-clearfix-hack/).
 
 
-## Media Queries
+## 媒体查询
 
 HTML5 Boilerplate makes it easy for you to get started with a
 [_mobile first_](http://www.lukew.com/presos/preso.asp?26) and [_responsive web
@@ -123,9 +124,15 @@ remove these placeholder media queries. One possibility would be to work from
 wide viewports down, and use `max-width` media queries instead (e.g.:
 `@media only screen and (max-width: 480px)`).
 
+很多时候,前期使用 HTML 和 CSS 设计的样式非常精美,但是经常会因为对方的设备,浏览器等的原因,分辨率达不到要求,最后导致用户看到的界面非常丑陋,很多内容位置发生改变.
+
+为了解决这个问题,,从 CSS 2.1 开始就定义了各种媒体类型(如显示器,便携浏览器等),允许设计者针对不用的媒体设备进行不同的 CSS 样式设计.
+
+
 
 ## Print styles
 
+有一些用用的打印样式，它改善打印过程，也使打印的页面容易阅读
 Lastly, we provide some useful print styles that will optimize the printing
 process, as well as make the printed pages easier to read.
 
